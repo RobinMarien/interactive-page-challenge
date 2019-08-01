@@ -29,22 +29,30 @@
         <ul>
             <li><a href="#tab_1">Information</a></li>
             <li><a href="#tab_2">Location</a></li>
-            <li><a href="#tab_3">Form</a></li>
+            <li><a href="#tab_3">Register</a></li>
         </ul>
     </nav>
     <div class="tab">
         <section id="tab_1">
+            <h2>Information</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur error et, ipsum iste maxime</p>
         </section>
     </div>
     <div class="tab">
         <section id="tab_2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur error et, ipsum iste maxime</p>
+            <h2>Location</h2>
+            <p>Sint-Pietersvliet 7, 2000 Antwerpen</p>
         </section>
     </div>
     <div class="tab">
         <section id="tab_3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur error et, ipsum iste maxime</p>
+            <h2>Please fill out this form to register</h2>
+            <form>
+                <input name="name" placeholder="Name" type="text" required />
+                <input name="email" placeholder="Email" type="email" required />
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input id="submit_button" type="submit" value="SEND" class="submit" />
+            </form>
         </section>
     </div>
     <script src="scripts.js"></script>
