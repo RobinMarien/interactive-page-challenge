@@ -80,6 +80,8 @@ button:hover{
 
 #photo{
     margin:30px auto;
+    height:100%;
+    width:100%;
 }
 
 ul{
@@ -110,7 +112,6 @@ section{
     padding: 15px;
     margin: auto auto 10px;
     border-radius: 10px;
-    border: 2px solid black;
 }
 
 .tab{
@@ -137,4 +138,7 @@ textarea {
     width: 320px;
 }
 
+.number{
+    font-weight: bold;
+}
 
